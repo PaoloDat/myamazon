@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Myamazon:war exploded">
+    <output-path>$PROJECT_DIR$/target/myamazon</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Myamazon" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901-1.jdbc4" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/myamazon/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Myamazon/web/Web" />
+    </root>
+  </artifact>
+</component>
